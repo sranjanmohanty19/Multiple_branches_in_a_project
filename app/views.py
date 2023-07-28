@@ -8,3 +8,8 @@ def data_render(request):
 def if_else(request):
     d = {'a':12,'b':15}
     return render(request,'if_else.html',context=d)
+
+def if_elif_else(request):
+    d = {'a':10,'b':30,'c':25}
+    return render(request,'if-elif-else.html',context=d)
+
