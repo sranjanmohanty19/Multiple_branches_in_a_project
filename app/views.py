@@ -13,3 +13,9 @@ def if_elif_else(request):
     d = {'a':10,'b':30,'c':25}
     return render(request,'if-elif-else.html',context=d)
 
+def nested_if(request):
+    d = {'a':20,'b':30,'c':40}
+    return render(request,'nested_if.html',context=d)
+
+
+
