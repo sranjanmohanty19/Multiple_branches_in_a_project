@@ -17,5 +17,9 @@ def nested_if(request):
     d = {'a':20,'b':30,'c':40}
     return render(request,'nested_if.html',context=d)
 
+def For_loop(request):
+    d = {'name':'Soumya','Hobbies':['Basketball','Trekking','Getting High']}
+    return render(request,'For_loop.html',context=d)
+
 
 
